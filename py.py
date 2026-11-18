@@ -40,7 +40,6 @@ async def main():
         print("Данные успешно записаны в car_data.json! Спим 10 секунд...\n")
         await asyncio.sleep(10)
 
-
 if __name__ == "__main__":
     try:
         asyncio.run(main())
